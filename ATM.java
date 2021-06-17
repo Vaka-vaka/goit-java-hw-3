@@ -16,7 +16,7 @@ public class ATM {
     }
 
    public static void main(String[] args) {
-        TrurlBank44 bank = new TrurlBank44();
+       ATM bank = new ATM();
 
         //Should be 6 - 500 + 50 + 20 + 5 + 2 + 1
         System.out.println(bank.countBanknotes(578));
